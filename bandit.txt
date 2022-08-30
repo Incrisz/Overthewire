@@ -5,7 +5,30 @@ bandit1 - boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 bandit2 - CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 bandit3 - UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 bandit4 - pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+        cd inhere/
+        file ./-file*
+        cat "./-file07"
 bandit5 - koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+        find . -size 1033c ! -executable
+        cat ./inhere/maybehere07/.file2
 bandit6 - DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+        find . -user bandit7 -group bandit6 -size 33c 2>/dev/null
 bandit7 - HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+        grep "millionth" data.txt OR 
+        grep -w "millionth" data.txt OR 
+        cat data.txt | grep "millionth”
 bandit8 - cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+NB: ls > myoutput
+    use the > to tell the terminal to save the output into the file myoutput.
+    ls >> myoutput
+    We can instead get the new data to be appended to the file by using the double greater than operator ( >> ).
+    >
+    Save output to a file.
+    >>
+    Append output to a file.
+    <
+    Read input from a file.
+    2>
+    Redirect error messages.
+    |
+    Send the output from one program as input to another program.
